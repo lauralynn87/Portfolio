@@ -50,8 +50,12 @@ sudo pico /etc/apache2/sites-available/default (Change both occurrences of /var/
 
 # Setup Github
 
-Install git core
-sudo apt-get install git-core 2.Github congif
+1. Install git core
+
+sudo apt-get install git-core 
+
+2.Github congif
+
 git config --global user.name [username]
 git config --global user.email someone@somewhere.com
 Get github public key
@@ -61,9 +65,10 @@ Paste it into SSH keys under settings in github account
 SSH into github to check it works. It will then kick you out.
 ssh git@github.com
 Hi [username] You've successfully authenticated, but GitHub does not provide shell access. Connection to github.com closed.
+
 Push github repo up to the live site
 
-1.Change ownership of 'www' directory and put git repo inside it.
+3.Change ownership of 'www' directory and put git repo inside it.
 
 sudo chown [username] -R var/www/
 Delete index.html file
