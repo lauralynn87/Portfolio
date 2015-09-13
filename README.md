@@ -1,7 +1,7 @@
 # Deployment Plan
 
 Personal Portfolio Site
-Link to IP Address of the Server - http://45.55.221.130/
+Production Server is Live! - http://45.55.174.237/
 
 # Spin Up Server
 
